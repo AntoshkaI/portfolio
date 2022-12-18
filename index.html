@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Site</title>
+</head>
+<body>
+  <main>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        LOGO
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">home</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <section id="home">
+      <div class="home-info">
+        <h2>Ivashnev Anton</h2>
+        <span class="home-position">front-end</span>
+        <span class="home-resume">
+          знаю языки (JS,HTML,CSS,REACT.)
+        </span>
+
+        <button>
+          <a href="#contact">contact me</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/Avatar_poe84it.png" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/2323.png" alt="Foto de um site">
+            </div>
+            <div class="project-info">
+              <h2>вёрстка сайтов</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/vfufpbyxbr.png" alt="Foto de uma loja online">
+            </div>
+            <div class="project-info">
+              <h2>вёрстка онлайн магазинов</h2>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>contact</h2>
+    <form>
+      <input type="text" placeholder="name" />
+      <input type="email" placeholder=" e-mail" />
+      <button>les go</button>
+    </form>
+  </section>
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
